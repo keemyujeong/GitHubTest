@@ -11,4 +11,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "aaa"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
+
+    override fun onResume() {
+        super.onResume()
+    }
 }
